@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(138, 24, 24);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+header a {
+    color: rgb(138, 24, 24);
+    font-size: 2vh;
+    font-weight: bolder ;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    padding: 0% 0% 0% 3%;
+}
+
+.mudando-cor {
+    color:  rgb(138, 24, 24);
+}
+
+.nav-item {
+    color: red;
+}
+
+#carrosel {
+    padding: 1% 0% 0% 0%;
+}
+
+.carousel-inner{
+    width: 99.3%;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 2% 0% 2%;
+    color: white;
+}
+
+.card-img-top {
+    width: 160%;
+}
+
+.card-text {
+    width: 160%;
+}
+
+.imagem-titulo-cards {
+    display: flex;
+    padding: 0% 0% 2% 0%;
+}
+
+.card-title {
+    margin: 5% 0% 0% 0%;
+}
+
+.card1 {
+    background-color: rgb(138, 24, 24);
+    border-color: rgb(138, 24, 24);
+    box-sizing: none;
+}
+
+#grupo-dois-botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.botoes {
+    color: rgb(138, 24, 24);
+    font-size: 2vh;
+    background-color: white;
+    padding: 0% 0% 0%;
+}
+
+.bloco-opcoes {
+    padding: 5% 0% 0% 0%;
+}
+
+.opcoes-buttons {
+    width: 100%;
+    background-color: white;
+    padding: 3% 4%;
+    border-radius: 5%;
+    color: rgb(138, 24, 24);
+    font-weight: bold;
+}
+
+#bloco-collapse {
+    width: 72.5%;
+    margin: 0% 0% 0% 18%;
+    padding: 0% 0% 2% 0%;
+}
+
+.titulo-collapse{
+    color:  rgb(138, 24, 24);
+    border: none;
+    background-color: white;
+}
+
+.card-body {
+    width: 100%;
+    background-color: rgb(138, 24, 24);
+    color: white;
+}
+
+.card-header {
+    background-color: white;
+}
+
+#texto-imagem-cor {
+    display: flex;
+    padding: 2% 0% 2% 0% ;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    padding: 1%;
+    color: rgb(138, 24, 24);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer h1 {
+    padding: 0% 0% 0% 0%;
+    font-size: 3vh;
+}

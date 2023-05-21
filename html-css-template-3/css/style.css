@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+
+h5 {
+    color: gray
+    
+}
+
+.bg-cinza {
+    background-color: #e9e9e9;
+}
+
+.navbar-brand img {
+    width: 80%;
+}
+
+.nav-item {
+    margin-right: 25px;
+    font-weight: 700;
+}
+
+.slider {
+    margin: 5px 0px 20px 0px;
+}
+
+.card {
+    width: 18rem;
+    background-color: white;
+    border: 0px;
+}
+
+.card-text {
+
+    color: black;
+}
+
+.meu-btn {
+    color: black;
+    background-color: #e9e9e9;
+    border-color: #e9e9e9;
+}
+
+.fundo-cinza {
+    background-color: grey;
+    padding: 15px 0px;
+
+}
+
+form {
+    background-color: #e9e9e9;
+    width: 80%;
+    padding: 20px;
+}
+
+footer {
+    height: 80px;
+    width: 120%;
+    margin-top: 10px;
+    background-color: #e9e9e9;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+.map-container-3{
+    overflow:hidden;
+    position:relative;
+    height:80%;
+  }
+  .map-container-3 iframe{
+    left:0;
+    top:0;
+    height: 100%;
+    padding-left: 520px;
+    width: 100%;
+    position:relative;
+  }

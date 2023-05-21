@@ -1,0 +1,127 @@
+body, header, ul, li, a, h1, h2, article, section, p {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* AQUI COMEÇA O MENU */
+
+#menu {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(18,28,37,255);
+    background-image: url(../imagens/logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+#menu h1 {
+    color: orange;
+    font-size: 18px;
+}
+
+#containerh1 {
+    width: 650px;
+    min-width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#menu nav {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#menu nav ul {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-right: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#menu nav ul li a {
+    color: goldenrod;
+}
+
+/* AQUI COMEÇA O MEIO */
+
+#principal {
+    width: 100%;
+    background-color: #d65c43;
+    padding-top: 15px;
+}
+
+#banner {
+    margin: 0 10px 10px 10px;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#banner img {
+    max-height: 250px;
+}
+
+#destaque {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.destaque {
+    width: 31%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.destaque img {
+    max-height: 280px;
+}
+
+.destaque h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.destaque p {
+    font-size: 18px;
+    hyphens: auto;
+}
+
+/* AQUI COMEÇA O RODAPÉ */
+
+footer {    
+    height: 50px;
+    background-color: goldenrod;
+    margin-top: 10px;
+}
+
+footer ul {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul li a {
+    color: black;
+}
